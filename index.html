@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button onclick="question()">click me</button>
+
+    <p id="quest"></p>
+<script>
+    function question() {
+
+        var response = prompt(("Do want to leave?"))
+        {
+
+            if (response == "yes") {
+
+            } else {
+                alert( "please push 'yes' to leave ")
+            }
+
+        }
+    }
+    document.getElementById("quest").innerHTML = response;
+</script>
+</body>
+</html>
